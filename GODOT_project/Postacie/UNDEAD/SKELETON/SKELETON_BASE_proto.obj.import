@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SKELETON_BASE_proto.obj-a074c545ee45465d84f98bd8b9a8f0f0.mesh"
+
+[deps]
+
+files=[ "res://.import/SKELETON_BASE_proto.obj-a074c545ee45465d84f98bd8b9a8f0f0.mesh" ]
+
+source_file="res://Postacie/UNDEAD/SKELETON/SKELETON_BASE_proto.obj"
+dest_files=[ "res://.import/SKELETON_BASE_proto.obj-a074c545ee45465d84f98bd8b9a8f0f0.mesh", "res://.import/SKELETON_BASE_proto.obj-a074c545ee45465d84f98bd8b9a8f0f0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

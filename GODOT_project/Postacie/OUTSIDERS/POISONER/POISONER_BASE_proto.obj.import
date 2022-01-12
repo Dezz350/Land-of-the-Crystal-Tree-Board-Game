@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/POISONER_BASE_proto.obj-39d8ef0ffbdcefa5ec4421b9c8d79d8c.mesh"
+
+[deps]
+
+files=[ "res://.import/POISONER_BASE_proto.obj-39d8ef0ffbdcefa5ec4421b9c8d79d8c.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/POISONER/POISONER_BASE_proto.obj"
+dest_files=[ "res://.import/POISONER_BASE_proto.obj-39d8ef0ffbdcefa5ec4421b9c8d79d8c.mesh", "res://.import/POISONER_BASE_proto.obj-39d8ef0ffbdcefa5ec4421b9c8d79d8c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

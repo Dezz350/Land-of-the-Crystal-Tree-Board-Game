@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/EATER_BASE_proto.obj-483023b02358dd178ec2b9ef70cd979b.mesh"
+
+[deps]
+
+files=[ "res://.import/EATER_BASE_proto.obj-483023b02358dd178ec2b9ef70cd979b.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/EATER/EATER_BASE_proto.obj"
+dest_files=[ "res://.import/EATER_BASE_proto.obj-483023b02358dd178ec2b9ef70cd979b.mesh", "res://.import/EATER_BASE_proto.obj-483023b02358dd178ec2b9ef70cd979b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/star.obj-89e77e1912c9f1df281a7f9d99744138.mesh"
+
+[deps]
+
+files=[ "res://.import/star.obj-89e77e1912c9f1df281a7f9d99744138.mesh" ]
+
+source_file="res://particletest/star.obj"
+dest_files=[ "res://.import/star.obj-89e77e1912c9f1df281a7f9d99744138.mesh", "res://.import/star.obj-89e77e1912c9f1df281a7f9d99744138.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

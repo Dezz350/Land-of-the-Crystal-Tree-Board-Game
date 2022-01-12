@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/FAE_BASE_proto.obj-2503d030ab95ae9757bde8b6718c4c3e.mesh"
+
+[deps]
+
+files=[ "res://.import/FAE_BASE_proto.obj-2503d030ab95ae9757bde8b6718c4c3e.mesh" ]
+
+source_file="res://Postacie/ELVES/FAE/FAE_BASE_proto.obj"
+dest_files=[ "res://.import/FAE_BASE_proto.obj-2503d030ab95ae9757bde8b6718c4c3e.mesh", "res://.import/FAE_BASE_proto.obj-2503d030ab95ae9757bde8b6718c4c3e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

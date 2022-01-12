@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ADEPT_BASE_proto.obj-b229623ce24c41c62dcd139b14d600c0.mesh"
+
+[deps]
+
+files=[ "res://.import/ADEPT_BASE_proto.obj-b229623ce24c41c62dcd139b14d600c0.mesh" ]
+
+source_file="res://Postacie/HUMAN/ADEPT/ADEPT_BASE_proto.obj"
+dest_files=[ "res://.import/ADEPT_BASE_proto.obj-b229623ce24c41c62dcd139b14d600c0.mesh", "res://.import/ADEPT_BASE_proto.obj-b229623ce24c41c62dcd139b14d600c0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

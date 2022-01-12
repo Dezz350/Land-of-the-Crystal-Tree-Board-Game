@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/DEVOURER_BASE_proto.obj-4fdfb1b03657f712e1ce4f3d4178c815.mesh"
+
+[deps]
+
+files=[ "res://.import/DEVOURER_BASE_proto.obj-4fdfb1b03657f712e1ce4f3d4178c815.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/DEVOURER/DEVOURER_BASE_proto.obj"
+dest_files=[ "res://.import/DEVOURER_BASE_proto.obj-4fdfb1b03657f712e1ce4f3d4178c815.mesh", "res://.import/DEVOURER_BASE_proto.obj-4fdfb1b03657f712e1ce4f3d4178c815.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

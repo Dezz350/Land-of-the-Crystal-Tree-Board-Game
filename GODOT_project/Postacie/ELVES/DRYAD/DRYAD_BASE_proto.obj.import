@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/DRYAD_BASE_proto.obj-7de7f21b2386378b70f6bce7643a11f8.mesh"
+
+[deps]
+
+files=[ "res://.import/DRYAD_BASE_proto.obj-7de7f21b2386378b70f6bce7643a11f8.mesh" ]
+
+source_file="res://Postacie/ELVES/DRYAD/DRYAD_BASE_proto.obj"
+dest_files=[ "res://.import/DRYAD_BASE_proto.obj-7de7f21b2386378b70f6bce7643a11f8.mesh", "res://.import/DRYAD_BASE_proto.obj-7de7f21b2386378b70f6bce7643a11f8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

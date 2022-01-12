@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/WASP_BASE_proto.obj-f951c6805e4de852c7d3512cb5367b26.mesh"
+
+[deps]
+
+files=[ "res://.import/WASP_BASE_proto.obj-f951c6805e4de852c7d3512cb5367b26.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/WASP/WASP_BASE_proto.obj"
+dest_files=[ "res://.import/WASP_BASE_proto.obj-f951c6805e4de852c7d3512cb5367b26.mesh", "res://.import/WASP_BASE_proto.obj-f951c6805e4de852c7d3512cb5367b26.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

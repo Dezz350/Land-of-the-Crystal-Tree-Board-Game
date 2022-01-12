@@ -1,0 +1,303 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://Menu/menu.png" type="Texture" id=1]
+[ext_resource path="res://MainMenu.gd" type="Script" id=2]
+[ext_resource path="res://Menu/new_game.png" type="Texture" id=3]
+[ext_resource path="res://rules/Rules.png" type="Texture" id=4]
+[ext_resource path="res://Menu/options.png" type="Texture" id=5]
+[ext_resource path="res://Menu/credits.png" type="Texture" id=6]
+[ext_resource path="res://Menu/exit.png" type="Texture" id=7]
+[ext_resource path="res://creators/twórcy.png" type="Texture" id=8]
+[ext_resource path="res://creators/andrzej.png" type="Texture" id=9]
+[ext_resource path="res://creators/damian.png" type="Texture" id=10]
+[ext_resource path="res://Menu/back.png" type="Texture" id=11]
+[ext_resource path="res://Menu/dec1.png" type="Texture" id=12]
+[ext_resource path="res://Names/human.png" type="Texture" id=13]
+[ext_resource path="res://Names/undead.png" type="Texture" id=14]
+[ext_resource path="res://Names/elf.png" type="Texture" id=15]
+[ext_resource path="res://Names/outsider.png" type="Texture" id=16]
+[ext_resource path="res://Menu/dec2.png" type="Texture" id=17]
+[ext_resource path="res://Menu/dec3.png" type="Texture" id=18]
+[ext_resource path="res://Menu/dec4.png" type="Texture" id=19]
+
+[node name="MainMenu" type="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+margin_left = 780.0
+margin_top = 216.0
+margin_right = 1145.0
+margin_bottom = 278.0
+window_title = "NO RACES CHOSEN"
+dialog_text = "You need more participants! Check your options."
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 694.0
+margin_top = 273.0
+margin_right = 1229.0
+margin_bottom = 801.0
+grow_horizontal = 0
+grow_vertical = 0
+alignment = 1
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+margin_right = 535.0
+margin_bottom = 102.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/Start"]
+margin_right = 535.0
+margin_bottom = 129.0
+texture = ExtResource( 3 )
+stretch_mode = 4
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_top = 106.0
+margin_right = 535.0
+margin_bottom = 208.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/Button"]
+margin_right = 535.0
+margin_bottom = 129.0
+texture = ExtResource( 4 )
+stretch_mode = 4
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+margin_top = 212.0
+margin_right = 535.0
+margin_bottom = 315.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/Settings"]
+margin_right = 535.0
+margin_bottom = 129.0
+texture = ExtResource( 5 )
+stretch_mode = 4
+
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 319.0
+margin_right = 535.0
+margin_bottom = 421.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/Credits"]
+margin_right = 535.0
+margin_bottom = 129.0
+texture = ExtResource( 6 )
+stretch_mode = 4
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+margin_top = 425.0
+margin_right = 535.0
+margin_bottom = 528.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/Exit"]
+margin_right = 535.0
+margin_bottom = 129.0
+texture = ExtResource( 7 )
+stretch_mode = 4
+
+[node name="creators" type="VBoxContainer" parent="."]
+visible = false
+margin_left = 694.0
+margin_top = 273.0
+margin_right = 1229.0
+margin_bottom = 801.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="creators"]
+margin_right = 956.0
+margin_bottom = 129.0
+size_flags_vertical = 3
+texture = ExtResource( 8 )
+stretch_mode = 4
+
+[node name="TextureRect2" type="TextureRect" parent="creators"]
+margin_top = 133.0
+margin_right = 956.0
+margin_bottom = 262.0
+size_flags_vertical = 3
+texture = ExtResource( 9 )
+stretch_mode = 4
+
+[node name="TextureRect3" type="TextureRect" parent="creators"]
+margin_top = 266.0
+margin_right = 956.0
+margin_bottom = 344.0
+size_flags_vertical = 2
+texture = ExtResource( 10 )
+stretch_mode = 6
+
+[node name="Button" type="Button" parent="creators"]
+margin_top = 399.0
+margin_right = 956.0
+margin_bottom = 528.0
+size_flags_vertical = 3
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="creators/Button"]
+margin_top = 50.0
+margin_right = 206.0
+margin_bottom = 121.0
+texture = ExtResource( 11 )
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+visible = false
+margin_left = 408.0
+margin_top = 166.0
+margin_right = 1516.0
+margin_bottom = 928.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+custom_constants/separation = 50
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer2"]
+margin_top = 84.0
+margin_right = 1108.0
+margin_bottom = 270.0
+texture = ExtResource( 12 )
+stretch_mode = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+margin_top = 320.0
+margin_right = 1108.0
+margin_bottom = 428.0
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer2/HBoxContainer"]
+margin_right = 274.0
+margin_bottom = 108.0
+pressed = true
+icon = ExtResource( 13 )
+
+[node name="CheckBox2" type="CheckBox" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 278.0
+margin_right = 552.0
+margin_bottom = 108.0
+pressed = true
+icon = ExtResource( 14 )
+
+[node name="CheckBox3" type="CheckBox" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 556.0
+margin_right = 830.0
+margin_bottom = 108.0
+pressed = true
+icon = ExtResource( 15 )
+
+[node name="CheckBox4" type="CheckBox" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 834.0
+margin_right = 1108.0
+margin_bottom = 108.0
+pressed = true
+icon = ExtResource( 16 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer2"]
+margin_top = 478.0
+margin_right = 691.0
+margin_bottom = 556.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer2/HBoxContainer2"]
+margin_right = 691.0
+margin_bottom = 78.0
+texture = ExtResource( 17 )
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer2"]
+margin_top = 606.0
+margin_right = 1108.0
+margin_bottom = 678.0
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer2/HBoxContainer3"]
+margin_left = 445.0
+margin_right = 663.0
+margin_bottom = 72.0
+icon = ExtResource( 11 )
+flat = true
+
+[node name="Label" type="Label" parent="."]
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 1251.0
+margin_top = 622.0
+margin_right = 1261.0
+margin_bottom = 636.0
+rect_scale = Vector2( 8, 8 )
+text = "0"
+
+[node name="buttons" type="HBoxContainer" parent="."]
+visible = false
+margin_left = 1224.0
+margin_top = 730.0
+margin_right = 1347.0
+margin_bottom = 796.0
+
+[node name="-" type="Button" parent="buttons"]
+margin_right = 58.0
+margin_bottom = 66.0
+icon = ExtResource( 18 )
+
+[node name="+" type="Button" parent="buttons"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 66.0
+icon = ExtResource( 19 )
+
+[node name="AcceptDialog2" type="AcceptDialog" parent="."]
+margin_left = 576.742
+margin_top = 236.0
+margin_right = 1340.74
+margin_bottom = 850.0
+window_title = "RULES"
+dialog_text = "A board game can be played by up to 4 people on one computer.
+
+	Each person chooses the race they will play. This selection can be made in the \"settings\" menu.
+Races differ in appearance, initial statistics, starting place and development paths.
+
+	The goal of the game is to perform the number of quests specified in the \"seetings\" menu, i.e. 
+to reach one of the two starting fields, on the other side of the board. The starting fields to reach can be 
+viewed under the \"quest\" button on the game interface. After the player reaches this field, one task is 
+counted and he receives 50 points of experience points (exp), and then, the field which he reached becomes 
+the starting field for the next quest.
+
+	In the game we move on designated fields. During one turn we can move over as many fields as we get 
+on the bottom left pentagonal dice. At the crossroads we can choose which way to move using the directions 
+system. We can select the direction of movement also after the start of the next round. We must stop on the 
+fields with the raft or the elevator!
+
+	Statistics have an important role in the game. Attack and defense points are useful when we move 
+to a field already occupied by another player. At this time the combat sequence begins and the players roll 
+the dice and add their statistics to the throws accordingly, the defender of the position - the defense, and 
+the personentering this position - attack. The winning player gains 5 experience points and the loser must 
+start his task again in a new starting place.
+
+	Experience points allow us to develop our character. After obtaining 100 points, we can choose the 
+development path, changing the appearance of the character and getting a large number of attack and defense 
+points, their number depends on the path chosen. After getting 400, the character we play fully masters his 
+own development path,which also results in a bonus to statistics and the final improvement of the character's 
+appearance. On some development paths, after reaching threshold of 300 points something unexpected can happen!
+
+	Statistics points can be obtained by reaching the end of a dead end path. We get the most experience 
+points when we arrive to the crystal tree in the center of the board. Until the end of current quest, we can 
+receive a bonus from one specific place only once!
+
+	IN GAME CONTROLS : arrows for camera movement, Q for top view and SPACE to return to character view."

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/GLIMMER_BASE_proto.obj-f69e946c31715b933712461b4f068902.mesh"
+
+[deps]
+
+files=[ "res://.import/GLIMMER_BASE_proto.obj-f69e946c31715b933712461b4f068902.mesh" ]
+
+source_file="res://Postacie/ELVES/GLIMMER/GLIMMER_BASE_proto.obj"
+dest_files=[ "res://.import/GLIMMER_BASE_proto.obj-f69e946c31715b933712461b4f068902.mesh", "res://.import/GLIMMER_BASE_proto.obj-f69e946c31715b933712461b4f068902.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/HERO_BASE_proto.obj-65eb12ec1fb7c35a80c8350b83558f83.mesh"
+
+[deps]
+
+files=[ "res://.import/HERO_BASE_proto.obj-65eb12ec1fb7c35a80c8350b83558f83.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/HERO/HERO_BASE_proto.obj"
+dest_files=[ "res://.import/HERO_BASE_proto.obj-65eb12ec1fb7c35a80c8350b83558f83.mesh", "res://.import/HERO_BASE_proto.obj-65eb12ec1fb7c35a80c8350b83558f83.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

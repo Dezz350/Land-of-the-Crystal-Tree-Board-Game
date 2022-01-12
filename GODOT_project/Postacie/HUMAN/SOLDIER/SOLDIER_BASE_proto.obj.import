@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SOLDIER_BASE_proto.obj-41113b03bab3515b268c71eb6dcb9bea.mesh"
+
+[deps]
+
+files=[ "res://.import/SOLDIER_BASE_proto.obj-41113b03bab3515b268c71eb6dcb9bea.mesh" ]
+
+source_file="res://Postacie/HUMAN/SOLDIER/SOLDIER_BASE_proto.obj"
+dest_files=[ "res://.import/SOLDIER_BASE_proto.obj-41113b03bab3515b268c71eb6dcb9bea.mesh", "res://.import/SOLDIER_BASE_proto.obj-41113b03bab3515b268c71eb6dcb9bea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

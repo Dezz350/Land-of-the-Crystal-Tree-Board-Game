@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/MERCENARY_BASE_proto.obj-c1ac1e62c64506586f535c6e46a1a31f.mesh"
+
+[deps]
+
+files=[ "res://.import/MERCENARY_BASE_proto.obj-c1ac1e62c64506586f535c6e46a1a31f.mesh" ]
+
+source_file="res://Postacie/HUMAN/MERCENARY/MERCENARY_BASE_proto.obj"
+dest_files=[ "res://.import/MERCENARY_BASE_proto.obj-c1ac1e62c64506586f535c6e46a1a31f.mesh", "res://.import/MERCENARY_BASE_proto.obj-c1ac1e62c64506586f535c6e46a1a31f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

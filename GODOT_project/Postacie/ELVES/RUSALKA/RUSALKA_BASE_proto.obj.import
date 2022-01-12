@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/RUSALKA_BASE_proto.obj-f6a13b41e0a9ab0c44f04d7d3443c04a.mesh"
+
+[deps]
+
+files=[ "res://.import/RUSALKA_BASE_proto.obj-f6a13b41e0a9ab0c44f04d7d3443c04a.mesh" ]
+
+source_file="res://Postacie/ELVES/RUSALKA/RUSALKA_BASE_proto.obj"
+dest_files=[ "res://.import/RUSALKA_BASE_proto.obj-f6a13b41e0a9ab0c44f04d7d3443c04a.mesh", "res://.import/RUSALKA_BASE_proto.obj-f6a13b41e0a9ab0c44f04d7d3443c04a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

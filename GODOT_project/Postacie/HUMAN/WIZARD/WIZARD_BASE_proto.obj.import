@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/WIZARD_BASE_proto.obj-b61f3e529923488354b332d8e0154bc4.mesh"
+
+[deps]
+
+files=[ "res://.import/WIZARD_BASE_proto.obj-b61f3e529923488354b332d8e0154bc4.mesh" ]
+
+source_file="res://Postacie/HUMAN/WIZARD/WIZARD_BASE_proto.obj"
+dest_files=[ "res://.import/WIZARD_BASE_proto.obj-b61f3e529923488354b332d8e0154bc4.mesh", "res://.import/WIZARD_BASE_proto.obj-b61f3e529923488354b332d8e0154bc4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

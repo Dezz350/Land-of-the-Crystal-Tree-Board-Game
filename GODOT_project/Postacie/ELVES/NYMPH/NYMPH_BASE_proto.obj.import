@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/NYMPH_BASE_proto.obj-925fde8a336597291d6f2d082bb47847.mesh"
+
+[deps]
+
+files=[ "res://.import/NYMPH_BASE_proto.obj-925fde8a336597291d6f2d082bb47847.mesh" ]
+
+source_file="res://Postacie/ELVES/NYMPH/NYMPH_BASE_proto.obj"
+dest_files=[ "res://.import/NYMPH_BASE_proto.obj-925fde8a336597291d6f2d082bb47847.mesh", "res://.import/NYMPH_BASE_proto.obj-925fde8a336597291d6f2d082bb47847.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

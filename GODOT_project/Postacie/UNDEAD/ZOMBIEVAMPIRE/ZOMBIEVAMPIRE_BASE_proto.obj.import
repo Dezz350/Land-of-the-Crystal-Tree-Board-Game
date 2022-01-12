@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ZOMBIEVAMPIRE_BASE_proto.obj-35df449ac4cc1cf7f4128c0ec39be4be.mesh"
+
+[deps]
+
+files=[ "res://.import/ZOMBIEVAMPIRE_BASE_proto.obj-35df449ac4cc1cf7f4128c0ec39be4be.mesh" ]
+
+source_file="res://Postacie/UNDEAD/ZOMBIEVAMPIRE/ZOMBIEVAMPIRE_BASE_proto.obj"
+dest_files=[ "res://.import/ZOMBIEVAMPIRE_BASE_proto.obj-35df449ac4cc1cf7f4128c0ec39be4be.mesh", "res://.import/ZOMBIEVAMPIRE_BASE_proto.obj-35df449ac4cc1cf7f4128c0ec39be4be.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SPIRITOFFOREST_BASE_proto.obj-56f041fd28a8248324446dc2b5e2826d.mesh"
+
+[deps]
+
+files=[ "res://.import/SPIRITOFFOREST_BASE_proto.obj-56f041fd28a8248324446dc2b5e2826d.mesh" ]
+
+source_file="res://Postacie/ELVES/ENT/SPIRITOFFOREST_BASE_proto.obj"
+dest_files=[ "res://.import/SPIRITOFFOREST_BASE_proto.obj-56f041fd28a8248324446dc2b5e2826d.mesh", "res://.import/SPIRITOFFOREST_BASE_proto.obj-56f041fd28a8248324446dc2b5e2826d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

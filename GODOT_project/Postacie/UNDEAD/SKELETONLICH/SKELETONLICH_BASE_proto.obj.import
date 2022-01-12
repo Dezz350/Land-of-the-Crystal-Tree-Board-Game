@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SKELETONLICH_BASE_proto.obj-c600c886e7829c45806a0f9c2d1203ad.mesh"
+
+[deps]
+
+files=[ "res://.import/SKELETONLICH_BASE_proto.obj-c600c886e7829c45806a0f9c2d1203ad.mesh" ]
+
+source_file="res://Postacie/UNDEAD/SKELETONLICH/SKELETONLICH_BASE_proto.obj"
+dest_files=[ "res://.import/SKELETONLICH_BASE_proto.obj-c600c886e7829c45806a0f9c2d1203ad.mesh", "res://.import/SKELETONLICH_BASE_proto.obj-c600c886e7829c45806a0f9c2d1203ad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

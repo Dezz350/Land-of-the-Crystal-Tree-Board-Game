@@ -1,0 +1,248 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://GameScene.gd" type="Script" id=1]
+[ext_resource path="res://Interface.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Plansza/plansza_colored_export.dae" type="PackedScene" id=3]
+[ext_resource path="res://PlanszaRep/plansza_colored_export.dae" type="PackedScene" id=4]
+[ext_resource path="res://Players/Human.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Players/Undead.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Players/Elf.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Players/Outsider.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Stół/untitled.dae" type="PackedScene" id=9]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 33.05, 0.330424, 33.0129 )
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 1, 0.38495, 6.10261 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 6.37019, 0.40044, 2.85985 )
+
+[sub_resource type="BoxShape" id=4]
+
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 4.86978, 1, 4.17706 )
+
+[sub_resource type="BoxShape" id=6]
+extents = Vector3( 0.983789, 0.543603, 1 )
+
+[sub_resource type="BoxShape" id=7]
+
+[sub_resource type="BoxShape" id=8]
+extents = Vector3( 1, 0.40091, 2.95908 )
+
+[sub_resource type="CapsuleShape" id=9]
+height = 4.48754
+
+[node name="GameScene" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Interface" parent="." instance=ExtResource( 2 )]
+
+[node name="Banner" parent="Interface/Ascend_Information/HBoxContainer" index="0"]
+margin_left = 0.0
+margin_right = 412.0
+
+[node name="NinePatchRect2" parent="Interface/VBoxContainer" index="1"]
+margin_bottom = 195.0
+
+[node name="NinePatchRect3" parent="Interface/VBoxContainer" index="2"]
+margin_top = 199.0
+margin_bottom = 295.0
+
+[node name="HBoxContainer" parent="Interface/VBoxContainer" index="3"]
+margin_top = 299.0
+
+[node name="quest" parent="Interface/VBoxContainer/HBoxContainer" index="0"]
+margin_bottom = 96.0
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 32.131, 0 )
+light_energy = 8.81
+omni_range = 67.8283
+
+[node name="Scene Root" parent="." instance=ExtResource( 3 )]
+visible = false
+
+[node name="PlaneCollision" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/PlaneCollision"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.333392, 0 )
+shape = SubResource( 1 )
+disabled = true
+
+[node name="MountainCollision1" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainCollision1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.0041, 1.48555, -25.0434 )
+shape = SubResource( 2 )
+disabled = true
+
+[node name="MountainCollision2" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainCollision2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.3772, 1.45241, -27.9033 )
+shape = SubResource( 3 )
+disabled = true
+
+[node name="MountainStart" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainStart"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8156, 1.00002, -27.985 )
+shape = SubResource( 4 )
+disabled = true
+
+[node name="MountainCollision3" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainCollision3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.9851, 0.82627, -27.2048 )
+shape = SubResource( 5 )
+disabled = true
+
+[node name="MountainPath1" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 0.976992, -0.213275, 0, 0.213275, 0.976992, 0, 0, 0, 1, 26.1402, 1.12052, -23.9918 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape2" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 0.983889, -0.178783, 0, 0.178783, 0.983889, 0, 0, 0, 1, 22.2047, 0.698083, -22.2403 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape5" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 0.983889, -0.178783, 0, 0.178783, 0.983889, 0, 0, 0, 1, 20.1176, 0.335961, -22.2403 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape7" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 1, 0, 0, 0, 0.982069, -0.188524, 0, 0.188524, 0.982069, 18.0592, -0.00806093, -20.1055 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape3" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.0492, 0.877787, -23.9563 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape4" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.9819, 0.877787, -22.3197 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="CollisionShape6" type="CollisionShape" parent="Scene Root/MountainPath1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.0691, 0.187562, -21.9922 )
+shape = SubResource( 6 )
+disabled = true
+
+[node name="MountainPath2" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 0.978823, -0.204707, 0, 0.204707, 0.978823, 28.0057, 0.68238, -18.1933 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape2" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.9383, 0.448805, -16.0369 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape3" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 0.983886, -0.178799, 0, 0.178799, 0.983886, 0, 0, 0, 1, 26.1295, 0.291112, -16.0369 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape4" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.0036, 0.100669, -15.9284 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape5" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 0.983351, -0.181713, 0, 0.181713, 0.983352, 24.0036, -0.0747421, -14.1654 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape6" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.9858, -0.284836, -11.9653 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape7" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 0.987185, -0.159577, 0, 0.159577, 0.987185, 0, 0, 0, 1, 22.1243, -0.45628, -11.9653 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape8" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.0326, -0.613824, -11.8805 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="CollisionShape9" type="CollisionShape" parent="Scene Root/MountainPath2"]
+transform = Transform( 1, 0, 0, 0, 0.983534, -0.180724, 0, 0.180724, 0.983534, 20.0326, -0.787848, -10.1157 )
+shape = SubResource( 7 )
+disabled = true
+
+[node name="Bridge1" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/Bridge1"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -11.9741, 0.0617486, -12.0201 )
+shape = SubResource( 8 )
+disabled = true
+
+[node name="Bridge2" type="StaticBody" parent="Scene Root"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Scene Root/Bridge2"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8.99477, -0.728717, 0 )
+shape = SubResource( 9 )
+disabled = true
+
+[node name="Board" parent="." instance=ExtResource( 4 )]
+
+[node name="Camera_Holder" type="Spatial" parent="."]
+
+[node name="Camera_up" type="Camera" parent="Camera_Holder"]
+transform = Transform( -1, 7.5782e-08, -4.35871e-08, 0, 0.498578, 0.866845, 8.74228e-08, 0.866845, -0.498578, 0, 32.942, -32.1142 )
+
+[node name="Camera1" type="Camera" parent="."]
+transform = Transform( -2.17938e-08, -0.866841, 0.498585, -3.78908e-08, 0.498585, 0.866841, -1, -3.55271e-15, -4.37114e-08, 29.9484, 31.1558, 0 )
+visible = false
+
+[node name="Camera2" type="Camera" parent="."]
+transform = Transform( -4.37114e-08, 0.866845, -0.498578, 0, 0.498578, 0.866845, 1, 3.7891e-08, -2.17936e-08, -29.948, 31.156, 0 )
+visible = false
+
+[node name="Camera3" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.498578, 0.866845, 0, -0.866845, 0.498578, 0, 31.156, 29.948 )
+visible = false
+
+[node name="Human_Player" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 34.7364, 0.0615435, 11.4503 )
+visible = false
+
+[node name="Undead_Player" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 34.5245, 0, 18.8342 )
+visible = false
+
+[node name="Elf_Player" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 35.0015, 0.193431, 5.09546 )
+visible = false
+
+[node name="Outsider_Player" parent="." instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 35.2678, 0, -2.84927 )
+visible = false
+
+[node name="Scene Root2" parent="." instance=ExtResource( 9 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+
+[editable path="Interface"]

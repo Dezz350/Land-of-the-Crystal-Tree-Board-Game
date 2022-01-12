@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SKELETONARCHER_BASE_proto.obj-c4c8a8486a344486e661f51eb7e22a77.mesh"
+
+[deps]
+
+files=[ "res://.import/SKELETONARCHER_BASE_proto.obj-c4c8a8486a344486e661f51eb7e22a77.mesh" ]
+
+source_file="res://Postacie/UNDEAD/SKELETONARCHER/SKELETONARCHER_BASE_proto.obj"
+dest_files=[ "res://.import/SKELETONARCHER_BASE_proto.obj-c4c8a8486a344486e661f51eb7e22a77.mesh", "res://.import/SKELETONARCHER_BASE_proto.obj-c4c8a8486a344486e661f51eb7e22a77.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

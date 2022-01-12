@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/HULK_ANT_BASE_proto.obj-61fa8cc3a0fa811bcdbffcaa21bf5a78.mesh"
+
+[deps]
+
+files=[ "res://.import/HULK_ANT_BASE_proto.obj-61fa8cc3a0fa811bcdbffcaa21bf5a78.mesh" ]
+
+source_file="res://Postacie/OUTSIDERS/HULKANT/HULK_ANT_BASE_proto.obj"
+dest_files=[ "res://.import/HULK_ANT_BASE_proto.obj-61fa8cc3a0fa811bcdbffcaa21bf5a78.mesh", "res://.import/HULK_ANT_BASE_proto.obj-61fa8cc3a0fa811bcdbffcaa21bf5a78.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

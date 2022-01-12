@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/INNKEEPER_BASE_proto.obj-d32eddcccb3058578f015f61f5d12ffd.mesh"
+
+[deps]
+
+files=[ "res://.import/INNKEEPER_BASE_proto.obj-d32eddcccb3058578f015f61f5d12ffd.mesh" ]
+
+source_file="res://Postacie/HUMAN/INNKEEPER/INNKEEPER_BASE_proto.obj"
+dest_files=[ "res://.import/INNKEEPER_BASE_proto.obj-d32eddcccb3058578f015f61f5d12ffd.mesh", "res://.import/INNKEEPER_BASE_proto.obj-d32eddcccb3058578f015f61f5d12ffd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
